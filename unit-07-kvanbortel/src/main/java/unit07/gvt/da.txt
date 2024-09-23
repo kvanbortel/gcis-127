@@ -1,0 +1,3 @@
+Class:      attack                          mage                                     fighter
+State:      name, # of hits, damage type;   name, max HP, current HP;                name, max HP, current HP
+Behavior:   getters;                        attack, attacked, heal, is unconscious;  attack, attacked, heal, is unconscious;

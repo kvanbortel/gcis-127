@@ -1,0 +1,17 @@
+How will you represent the state of a configuration?
+What fields and constructors will be needed?
+- a list of the queens placed
+- num of queens placed
+
+
+How will you determine if a configuration is valid or not?
+- its path doesn't equal the new queen's path at any point
+- doe the canAttack method return true?
+
+
+How will you determine whether or not a configuration is the goal?
+- all queens are on the board and satisfy isValid()
+
+
+What do the successors of each configuration represent? How will you create them?
+- the set of next possible moves

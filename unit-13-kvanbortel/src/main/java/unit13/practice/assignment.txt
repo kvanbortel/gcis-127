@@ -1,0 +1,29 @@
+13.11 - BFS
+
+Previously seen:
+Vertex:     A  B  D  E  C  G  F
+Previous:      A  A  B  D  D  E
+Path (A to F): A, B, E, F
+
+
+13.12 - DFS
+
+Previously seen:
+Vertext:    A  B  E  C  D  G  F
+Previous:      A  B  E  C  D  G
+Path (A to F): ABECDGF
+
+
+13.13 - Dijkstra
+Start with the vertex with the lowest cost
+
+Vertex   Path Tuple
+A        (0, null)      ()
+B        (oo, null)     (11, A)  (10, C)
+C        (oo, null)     (7, D)
+D        (oo, null)     (5, A)
+E        (oo, null)     (11, B)
+F        (oo, null)     (17, E)
+G        (oo, null)     (25, D)  (19, F)
+
+Path: ADCBEFG(19)

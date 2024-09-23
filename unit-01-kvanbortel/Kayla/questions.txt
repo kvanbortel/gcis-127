@@ -1,0 +1,5 @@
+Kayla Van Bortel
+
+The empty directory did not appear in GitHub
+
+There is one copy of questions.txt in the "Kayla" directory on GitHub, which is now present. There is another copy of it outside of this directory from when I pushed it the first time. This is because the file was only moved on my machine locally and I would have to use the Git workflow to change that in GitHub.

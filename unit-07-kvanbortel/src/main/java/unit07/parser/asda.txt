@@ -1,0 +1,5 @@
+Class:      Expression      Constant                  Unary Expression      Increment            Decrement      
+
+State:      ?               value                     Expression            Expression           Expression                        
+
+Behavior:   Evaluate        Constructor, Evaluate     Constructor, Eval     Constructor, Eval    Constructor, Eval

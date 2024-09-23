@@ -1,0 +1,28 @@
+13.28 - Backtracking I
+
+3x7
+
+2: 2x3
+4: 1x2
+1: 1x1
+
+RRRRRRY
+RRRRRRY
+YYYYYYB
+
+
+13.29 - Backtracking II
+Configuration:
+Fields:
+- list of packed boxes with pack location (top-left corner)
+- list of unpacked boxes
+
+Successor:
+- Create one configuration for each unpacked box, packing it into the next available spot to the left. If there is no spot
+to the left, try placing it above.
+
+Pruning strategy:
+- If the configuration has a total height > 3 or a total width > 7, it is invalid
+
+Goal:
+- The unpacked list is empty

@@ -1,0 +1,7 @@
+a.
+Increasing the time that the dropper waits makes it take longer for the goats to eat turnips. Decreasing the time to 0
+makes the game run almost instantly. This is because when it is waiting it is not dropping turnips for goats to eat.
+
+b.
+The more turnips are dropped at once, the faster the game completes. This is because there is less waiting between
+turnip dropper drops since there are less of them overall.

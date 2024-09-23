@@ -1,0 +1,8 @@
+Vertex      Adjacency List          Vertex      Adjacency List
+T               W                   A               B
+U               W                   B               A C
+V               Y                   C               E F
+W               T U                 D               A C G
+x               Y Z                 E               C F
+Y               V X Z               F               C E
+Z               X Y                 G               C D

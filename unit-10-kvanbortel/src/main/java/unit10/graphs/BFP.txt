@@ -1,0 +1,13 @@
+Vertex:         G       F     E     C
+Predecessor:    null    G     F     E
+
+G to C:         G, F, E, C
+Path:           G, F, E, C
+
+
+
+Vertex:         F       E    G   C   B   H
+Predecessor:    null    F    F   E   C   C
+
+F to H:         F, E, G, C, B, H
+Path:           F, E, C, H

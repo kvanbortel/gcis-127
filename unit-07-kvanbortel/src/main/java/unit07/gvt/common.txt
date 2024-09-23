@@ -1,0 +1,4 @@
+                Common to Both                      Unique to Mage              Unique to Fighter
+State:          name, maxHP, currentHP              N/A                         N/A
+
+Behavior:       heal, isConscious, constructors     attack, take damage         attack, takge damage
